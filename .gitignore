@@ -8,3 +8,5 @@
 **/.assetlab/backups/
 *.tmp
 # Generated images live in demo_project only for examples.
+__pycache__/
+*.py[cod]
