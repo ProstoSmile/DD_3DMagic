@@ -1,0 +1,6 @@
+{
+  "operation": "verify_blender",
+  "source_relative": "assets/long_shotgun/references/technical/r2_1cb62fed7df3/geometry.json",
+  "scene_relative": "blender/models/props/weapons/long_shotgun/long_shotgun.blend",
+  "output_relative": ".assetlab/staging/long_shotgun_silhouette_saved_scene_verify_v1"
+}

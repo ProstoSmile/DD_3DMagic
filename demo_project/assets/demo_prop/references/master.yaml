@@ -1,0 +1,31 @@
+schema_version: 1
+reference_id: demo_prop_master
+version: 1
+status: sample_unapproved
+asset_id: demo_prop
+project_style: lowpoly_pixel
+identity:
+  description: "Technical demo: low-poly prop with aged wood and dark steel surfaces."
+  geometry_reference: null
+  required_parts: [wood_section, metal_section]
+  proportions: "No authoritative mesh geometry is supplied in the demo."
+visual:
+  shape_language: [simple, chunky, hard_silhouette]
+  roughness: matte_to_satin
+  value_ramp: [dark_neutral, mid_wood, pale_highlight]
+  texture_method: material_first
+  pixel_policy: "Small coherent color clusters; avoid speckle noise"
+  color_reference: ".assetlab/project.toml:texture.palette"
+technical:
+  model_status: absent_demo_only
+  uv_status: sample_fixture_only
+  intended_target: game_prop
+  unit_system: meters
+restrictions:
+  no_automatic_uv_repack: true
+  no_destructive_remesh: true
+  require_artist_approval: true
+sources:
+  - path: textures/source_sample.png
+    role: demonstration_texture_motif
+    provenance: locally_created_procedural_example

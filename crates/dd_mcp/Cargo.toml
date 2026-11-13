@@ -1,0 +1,20 @@
+[package]
+name = "dd_mcp"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[[bin]]
+name = "dd-3dmagic-mcp"
+path = "src/main.rs"
+
+[dependencies]
+base64 = "0.22"
+dd_core = { path = "../dd_core" }
+dd_bridge = { path = "../dd_bridge" }
+rmcp = { version = "3.9", features = ["server", "transport-io", "schemars"] }
+tokio = { version = "1", features = ["macros", "rt-multi-thread", "io-std"] }
+schemars = "1"
+serde.workspace = true
+serde_json.workspace = true

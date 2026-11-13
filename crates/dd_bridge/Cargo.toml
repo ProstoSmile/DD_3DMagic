@@ -1,0 +1,15 @@
+[package]
+name = "dd_bridge"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+dd_core = { path = "../dd_core" }
+serde.workspace = true
+serde_json.workspace = true
+sha2.workspace = true
+image.workspace = true
+toml.workspace = true
+schemars = "1"

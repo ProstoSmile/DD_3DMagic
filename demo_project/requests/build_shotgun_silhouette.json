@@ -1,0 +1,11 @@
+{
+  "operation": "blender",
+  "source_relative": ".assetlab/staging/long_shotgun_silhouette_geometry_v2/geometry.json",
+  "output_relative": ".assetlab/staging/long_shotgun_silhouette_blender_v1",
+  "category": "props",
+  "subcategory": "weapons",
+  "slug": "long_shotgun",
+  "design_reference_relative": "requests/long_shotgun_silhouette_brief_v3.md",
+  "expected_previous_sha256": "652ef7378deafa4b7a3f73b566b02446e6cc228581aa4b0f64c98d6127dc44d3",
+  "publish": true
+}

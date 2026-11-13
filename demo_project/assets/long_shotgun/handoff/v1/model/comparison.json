@@ -1,0 +1,128 @@
+{
+  "blender_version": "4.5.0",
+  "components": 9,
+  "gate": "blender_round_trip",
+  "maximum_vertex_error": 2.32696533153387e-7,
+  "renders": [
+    {
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.3299999237060547
+        ],
+        [
+          0.0,
+          -4.3711388286737935e-8,
+          -1.0,
+          -25.02792739868164
+        ],
+        [
+          0.0,
+          1.0,
+          -4.3711388286737935e-8,
+          -0.23099999129772184
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "ortho_scale": 9.215359687805176,
+      "path": "blender_side.png",
+      "silhouette": {
+        "actual_pixels": 24027,
+        "boundary_tolerance_px": 1,
+        "expected_pixels": 23974,
+        "iou": 0.997544735746983,
+        "mismatch_beyond_tolerance": 0,
+        "status": "PASS"
+      },
+      "view": "side"
+    },
+    {
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.3299999237060547
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          24.79692649841309
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "ortho_scale": 9.215359687805176,
+      "path": "blender_top.png",
+      "silhouette": {
+        "actual_pixels": 14696,
+        "boundary_tolerance_px": 1,
+        "expected_pixels": 14666,
+        "iou": 0.9976867601034154,
+        "mismatch_beyond_tolerance": 0,
+        "status": "PASS"
+      },
+      "view": "top"
+    },
+    {
+      "matrix_world": [
+        [
+          -4.3711388286737935e-8,
+          4.3711388286737935e-8,
+          1.0,
+          25.357927322387695
+        ],
+        [
+          1.0,
+          1.910685676922942e-15,
+          4.3711388286737935e-8,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          -4.3711388286737935e-8,
+          -0.23099999129772184
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "ortho_scale": 9.215359687805176,
+      "path": "blender_front.png",
+      "silhouette": {
+        "actual_pixels": 3392,
+        "boundary_tolerance_px": 1,
+        "expected_pixels": 3392,
+        "iou": 0.999410551134689,
+        "mismatch_beyond_tolerance": 0,
+        "status": "PASS"
+      },
+      "view": "front"
+    }
+  ],
+  "revision": 6,
+  "scope": "Exact proxy mesh/component/revision verification; artistic acceptance and detailed-mesh correspondence are separate.",
+  "status": "PASS"
+}

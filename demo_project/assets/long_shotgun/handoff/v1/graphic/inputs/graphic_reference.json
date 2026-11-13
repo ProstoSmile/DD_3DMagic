@@ -1,0 +1,21 @@
+{
+  "role": "graphic_reference_candidate",
+  "provider": "ChatGPT Image",
+  "views": {
+    "side": {
+      "image": "side.png",
+      "source": ".assetlab/staging/shotgun_graphic_3d_appearance_v1/graphic_reference.json"
+    },
+    "top": {
+      "image": "top.png",
+      "reference": "assets/long_shotgun/references/design/orthographic_alignment_v1/top.png",
+      "prompt": "Create only the TOP orthographic game-prop render. Look straight down at the fictional shotgun, butt at left and muzzle at right, as shown in input 1. Keep the full long shape and show it large with margins. The dark metal barrel is a slender straight cylinder, the walnut fore-end peeks out on both sides, the metal receiver is just wider and joins the shaped stock, and the small front sight is centered. Center all these pieces on one longitudinal axis, no side face exposed by camera tilt. The first attached image determines the exact camera and design profile. The second is the approved SIDE render of the same fictional 3D game prop: use it only for materials, sculpted volume, geometry bevel style, lighting and texel scale. A rendered solid 3D model, with muted blued steel, carved warm walnut and a matte dark butt pad. Fine nearest-neighbor pixel-art surface texture mapped to the 3D volumes, clean modeled edges, visible bevel planes and soft studio shading. No flat sprite, construction lines, labels, scenery, additional views, or decorative additions. Same plain warm off-white background as the approved side render."
+    },
+    "front": {
+      "image": "front.png",
+      "reference": "assets/long_shotgun/references/design/orthographic_alignment_v1/front.png",
+      "prompt": "Create only the FRONT orthographic game-prop render, looking straight toward the muzzle end along the longitudinal axis, exactly like input 1. Center a compact vertical silhouette and enlarge it to fill most of a portrait composition, with ample margin. At the top is one small sight, below it the one dark circular barrel opening and its restrained metallic bevel; below is the rounded walnut fore-end, and the dark lower guard behind it. The stock is behind the forward parts. No long side silhouette or perspective foreshortened barrel visible. The first attached image determines the exact camera and design profile. The second is the approved SIDE render of the same fictional 3D game prop: use it only for materials, sculpted volume, geometry bevel style, lighting and texel scale. A rendered solid 3D model, with muted blued steel, carved warm walnut and a matte dark butt pad. Fine nearest-neighbor pixel-art surface texture mapped to the 3D volumes, clean modeled edges, visible bevel planes and soft studio shading. No flat sprite, construction lines, labels, scenery, additional views, or decorative additions. Same plain warm off-white background as the approved side render."
+    }
+  },
+  "note": "Appearance reference. Three separately generated views; technical projection agreement has not been measured."
+}

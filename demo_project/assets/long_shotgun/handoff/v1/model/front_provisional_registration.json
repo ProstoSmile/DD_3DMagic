@@ -1,0 +1,7 @@
+{
+  "iou": 0.8007749434937036,
+  "status": "NEEDS_EVIDENCE",
+  "scale_basis": "Top stock width versus enlarged front stock width, with muzzle center as origin.",
+  "scale_au_per_px": 0.015052631578947368,
+  "notes": "Provisional uniform registration. Source front height/muzzle diameter conflict with the registered side/top widths."
+}

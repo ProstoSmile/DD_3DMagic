@@ -1,0 +1,771 @@
+{
+  "spec": {
+    "schema_version": 1,
+    "asset_uid": "fictional-long-shotgun",
+    "revision": 1,
+    "units": "artistic_relative",
+    "name": "Stylized Long Shotgun",
+    "projection_convention": "third_angle",
+    "technical_sheet_layout": "three_view_plus_quarter",
+    "parameter_provenance": [
+      {
+        "path": "*",
+        "basis": "artistic",
+        "explanation": "Fictional concept proportions in artistic relative units; no real-world measurements are claimed."
+      },
+      {
+        "path": "nodes.barrel.primitive.depth",
+        "basis": "artistic",
+        "explanation": "Fictional shotgun concept proportion in artistic relative units; not a real-world measurement."
+      }
+    ],
+    "root": {
+      "id": "shotgun",
+      "label": "Stylized long shotgun",
+      "transform": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "primitive": null,
+      "material": "steel",
+      "children": [
+        {
+          "id": "stock",
+          "label": "Carved walnut stock",
+          "transform": {
+            "translation": {
+              "x": -1.35,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "primitive": {
+            "kind": "extruded_profile",
+            "parameters": {
+              "profile": [
+                [
+                  -1.52,
+                  -0.34
+                ],
+                [
+                  -1.3,
+                  -0.47
+                ],
+                [
+                  -0.55,
+                  -0.43
+                ],
+                [
+                  -0.12,
+                  -0.31
+                ],
+                [
+                  0.34,
+                  -0.31
+                ],
+                [
+                  0.42,
+                  0.25
+                ],
+                [
+                  -0.36,
+                  0.31
+                ],
+                [
+                  -1.17,
+                  0.38
+                ],
+                [
+                  -1.48,
+                  0.24
+                ]
+              ],
+              "depth": 0.38,
+              "axis": "y"
+            }
+          },
+          "material": "wood",
+          "children": []
+        },
+        {
+          "id": "receiver",
+          "label": "Steel receiver",
+          "transform": {
+            "translation": {
+              "x": -0.35,
+              "y": 0.0,
+              "z": 0.07
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "primitive": {
+            "kind": "box",
+            "parameters": {
+              "size": {
+                "x": 1.22,
+                "y": 0.54,
+                "z": 0.56
+              }
+            }
+          },
+          "material": "steel",
+          "children": []
+        },
+        {
+          "id": "receiver-side-plate",
+          "label": "Receiver side plate",
+          "transform": {
+            "translation": {
+              "x": -0.37,
+              "y": -0.292,
+              "z": 0.085
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "primitive": {
+            "kind": "box",
+            "parameters": {
+              "size": {
+                "x": 0.86,
+                "y": 0.045,
+                "z": 0.34
+              }
+            }
+          },
+          "material": "dark_steel",
+          "children": []
+        },
+        {
+          "id": "barrel",
+          "label": "Long steel barrel",
+          "transform": {
+            "translation": {
+              "x": 2.65,
+              "y": 0.0,
+              "z": 0.18
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "primitive": {
+            "kind": "cylinder",
+            "parameters": {
+              "radius": 0.095,
+              "depth": 4.92,
+              "axis": "x",
+              "segments": 20
+            }
+          },
+          "material": "dark_steel",
+          "children": []
+        },
+        {
+          "id": "muzzle",
+          "label": "Muzzle collar",
+          "transform": {
+            "translation": {
+              "x": 5.2,
+              "y": 0.0,
+              "z": 0.18
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "primitive": {
+            "kind": "cylinder",
+            "parameters": {
+              "radius": 0.118,
+              "depth": 0.18,
+              "axis": "x",
+              "segments": 20
+            }
+          },
+          "material": "steel",
+          "children": []
+        },
+        {
+          "id": "forearm",
+          "label": "Walnut forearm",
+          "transform": {
+            "translation": {
+              "x": 1.25,
+              "y": 0.0,
+              "z": -0.15
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "primitive": {
+            "kind": "box",
+            "parameters": {
+              "size": {
+                "x": 1.92,
+                "y": 0.48,
+                "z": 0.34
+              }
+            }
+          },
+          "material": "wood",
+          "children": []
+        },
+        {
+          "id": "barrel-band-rear",
+          "label": "Rear barrel band",
+          "transform": {
+            "translation": {
+              "x": 0.54,
+              "y": 0.0,
+              "z": 0.18
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "primitive": {
+            "kind": "cylinder",
+            "parameters": {
+              "radius": 0.106,
+              "depth": 0.075,
+              "axis": "x",
+              "segments": 20
+            }
+          },
+          "material": "brass",
+          "children": []
+        },
+        {
+          "id": "barrel-band-front",
+          "label": "Front barrel band",
+          "transform": {
+            "translation": {
+              "x": 2.18,
+              "y": 0.0,
+              "z": 0.18
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "primitive": {
+            "kind": "cylinder",
+            "parameters": {
+              "radius": 0.106,
+              "depth": 0.075,
+              "axis": "x",
+              "segments": 20
+            }
+          },
+          "material": "brass",
+          "children": []
+        },
+        {
+          "id": "trigger-guard-front",
+          "label": "Trigger guard front",
+          "transform": {
+            "translation": {
+              "x": -0.02,
+              "y": 0.0,
+              "z": -0.34
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "primitive": {
+            "kind": "box",
+            "parameters": {
+              "size": {
+                "x": 0.075,
+                "y": 0.09,
+                "z": 0.34
+              }
+            }
+          },
+          "material": "dark_steel",
+          "children": []
+        },
+        {
+          "id": "trigger-guard-back",
+          "label": "Trigger guard rear",
+          "transform": {
+            "translation": {
+              "x": -0.72,
+              "y": 0.0,
+              "z": -0.34
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "primitive": {
+            "kind": "box",
+            "parameters": {
+              "size": {
+                "x": 0.075,
+                "y": 0.09,
+                "z": 0.34
+              }
+            }
+          },
+          "material": "dark_steel",
+          "children": []
+        },
+        {
+          "id": "trigger-guard-bottom",
+          "label": "Trigger guard lower bar",
+          "transform": {
+            "translation": {
+              "x": -0.37,
+              "y": 0.0,
+              "z": -0.49
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "primitive": {
+            "kind": "box",
+            "parameters": {
+              "size": {
+                "x": 0.61,
+                "y": 0.09,
+                "z": 0.075
+              }
+            }
+          },
+          "material": "dark_steel",
+          "children": []
+        },
+        {
+          "id": "trigger",
+          "label": "Trigger",
+          "transform": {
+            "translation": {
+              "x": -0.37,
+              "y": 0.0,
+              "z": -0.34
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": -0.18,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "primitive": {
+            "kind": "box",
+            "parameters": {
+              "size": {
+                "x": 0.055,
+                "y": 0.065,
+                "z": 0.19
+              }
+            }
+          },
+          "material": "steel",
+          "children": []
+        },
+        {
+          "id": "rear-sight",
+          "label": "Rear sight",
+          "transform": {
+            "translation": {
+              "x": 0.05,
+              "y": 0.0,
+              "z": 0.3
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "primitive": {
+            "kind": "box",
+            "parameters": {
+              "size": {
+                "x": 0.14,
+                "y": 0.11,
+                "z": 0.14
+              }
+            }
+          },
+          "material": "dark_steel",
+          "children": []
+        },
+        {
+          "id": "front-sight",
+          "label": "Front sight",
+          "transform": {
+            "translation": {
+              "x": 4.78,
+              "y": 0.0,
+              "z": 0.31
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "primitive": {
+            "kind": "box",
+            "parameters": {
+              "size": {
+                "x": 0.14,
+                "y": 0.11,
+                "z": 0.14
+              }
+            }
+          },
+          "material": "dark_steel",
+          "children": []
+        },
+        {
+          "id": "sight-bead",
+          "label": "Brass sight bead",
+          "transform": {
+            "translation": {
+              "x": 4.82,
+              "y": 0.0,
+              "z": 0.4
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "primitive": {
+            "kind": "sphere",
+            "parameters": {
+              "radius": 0.055,
+              "longitude_segments": 12,
+              "latitude_segments": 6
+            }
+          },
+          "material": "brass",
+          "children": []
+        },
+        {
+          "id": "lever",
+          "label": "Receiver lever",
+          "transform": {
+            "translation": {
+              "x": -0.45,
+              "y": -0.34,
+              "z": -0.22
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "primitive": {
+            "kind": "cylinder",
+            "parameters": {
+              "radius": 0.045,
+              "depth": 0.28,
+              "axis": "z",
+              "segments": 12
+            }
+          },
+          "material": "steel",
+          "children": []
+        },
+        {
+          "id": "stock-screw",
+          "label": "Brass fastener",
+          "transform": {
+            "translation": {
+              "x": -1.05,
+              "y": -0.305,
+              "z": 0.04
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "primitive": {
+            "kind": "cylinder",
+            "parameters": {
+              "radius": 0.055,
+              "depth": 0.025,
+              "axis": "y",
+              "segments": 12
+            }
+          },
+          "material": "brass",
+          "children": []
+        },
+        {
+          "id": "receiver-screw-front",
+          "label": "Brass fastener",
+          "transform": {
+            "translation": {
+              "x": -0.04,
+              "y": -0.305,
+              "z": 0.13
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "primitive": {
+            "kind": "cylinder",
+            "parameters": {
+              "radius": 0.055,
+              "depth": 0.025,
+              "axis": "y",
+              "segments": 12
+            }
+          },
+          "material": "brass",
+          "children": []
+        },
+        {
+          "id": "receiver-screw-back",
+          "label": "Brass fastener",
+          "transform": {
+            "translation": {
+              "x": -0.68,
+              "y": -0.305,
+              "z": 0.13
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "primitive": {
+            "kind": "cylinder",
+            "parameters": {
+              "radius": 0.055,
+              "depth": 0.025,
+              "axis": "y",
+              "segments": 12
+            }
+          },
+          "material": "brass",
+          "children": []
+        }
+      ]
+    },
+    "dimensions": [
+      {
+        "id": "overall-length",
+        "label": "Overall length",
+        "target": {
+          "kind": "overall_extent",
+          "value": {
+            "axis": "x"
+          }
+        }
+      },
+      {
+        "id": "barrel-diameter",
+        "label": "Barrel diameter",
+        "target": {
+          "kind": "node_extent",
+          "value": {
+            "node_id": "barrel",
+            "axis": "y"
+          }
+        }
+      },
+      {
+        "id": "stock-to-muzzle",
+        "label": "Stock to muzzle distance",
+        "target": {
+          "kind": "node_distance",
+          "value": {
+            "first_node": "stock",
+            "second_node": "muzzle"
+          }
+        }
+      }
+    ],
+    "driving_dimensions": [
+      {
+        "id": "barrel-depth",
+        "label": "Barrel depth",
+        "assignment": {
+          "node_id": "barrel",
+          "parameter": "depth",
+          "value": 4.92
+        },
+        "unit_label": "au"
+      }
+    ],
+    "constraints": [
+      {
+        "kind": "extent_range",
+        "value": {
+          "id": "long-form-factor",
+          "node_id": null,
+          "axis": "x",
+          "minimum": 8.0,
+          "maximum": 9.5
+        }
+      },
+      {
+        "kind": "axes_parallel",
+        "value": {
+          "id": "barrel-aligned-to-receiver",
+          "first_node": "barrel",
+          "first_axis": "x",
+          "second_node": "receiver",
+          "second_axis": "x",
+          "tolerance": 0.01
+        }
+      }
+    ]
+  },
+  "undo": [],
+  "redo": []
+}

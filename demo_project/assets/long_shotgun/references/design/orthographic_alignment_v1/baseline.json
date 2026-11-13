@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "asset": "long_shotgun",
+  "version": 1,
+  "status": "artist_approved_design_baseline",
+  "source": "Agent-authored black pixel strokes captured through DD_3DMagic MCP.",
+  "rights": "Project-authored artwork; no external image source.",
+  "views": [
+    "top",
+    "side",
+    "front"
+  ],
+  "registration": {
+    "side_and_top": "Shared 400 pixel canvas and longitudinal origin; front points right.",
+    "front": "Muzzle end, enlarged; technical overlay scale unverified.",
+    "stations_canvas_x": {
+      "butt": 13,
+      "stock_receiver": 119,
+      "receiver_barrel": 191,
+      "forearm_tip": 276,
+      "front_sight": 369,
+      "muzzle": 387
+    }
+  },
+  "files": {
+    "alignment_sheet.png": {
+      "sha256": "77ea074007ef34a658dfddb304ba44d4ff6ffdb7e2b42998a2c3352fffd2931b"
+    },
+    "side.png": {
+      "sha256": "7b7d07b7a58be998cb2d08c105fd716141a6b3b34f82e2d6040ae85b40f6f850"
+    },
+    "side_strokes.json": {
+      "sha256": "4828858fa9122baf922801e0142165750a8c85b76a7e4dd30675958b996cb7bb"
+    },
+    "top.png": {
+      "sha256": "7cb1feeced340b58511c17b77b76c5e054f9e1b872fb83db25a9d378644c367e"
+    },
+    "top_strokes.json": {
+      "sha256": "f7eeff22ccfca850c70d780457e75e4bbeddd9a3315c5335c58f2ab4790cb52d"
+    },
+    "front.png": {
+      "sha256": "e2d28884daae846ef5c600acfd8798701a57b139801aa2183a80e41f5fbc3a47"
+    },
+    "front_strokes.json": {
+      "sha256": "968d25350c56e089349bb3cad666146010724603fa2ef59218f940578a32b7f7"
+    }
+  }
+}

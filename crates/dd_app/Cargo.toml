@@ -1,0 +1,17 @@
+[package]
+name = "dd_app"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[[bin]]
+name = "dd-3dmagic"
+path = "src/main.rs"
+
+[dependencies]
+dd_core = { path = "../dd_core" }
+dd_bridge = { path = "../dd_bridge" }
+eframe = { version = "0.36.2", default-features = false, features = ["default_fonts", "glow", "x11", "wayland"] }
+image.workspace = true
+serde_json.workspace = true

@@ -1,0 +1,6 @@
+schema_version = 2
+
+[texture]
+nearest_filter = true
+width = 256
+height = 256

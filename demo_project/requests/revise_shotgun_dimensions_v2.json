@@ -1,0 +1,22 @@
+{
+  "operation": "apply",
+  "source_relative": ".assetlab/staging/long_shotgun_reference_v3/geometry.json",
+  "output_relative": ".assetlab/staging/long_shotgun_reference_v4",
+  "command": {
+    "command": "replace_driving_dimensions",
+    "payload": {
+      "dimensions": [
+        {
+          "id": "barrel-depth",
+          "label": "Barrel depth",
+          "assignment": {
+            "node_id": "barrel",
+            "parameter": "depth",
+            "value": 5.0
+          },
+          "unit_label": "au"
+        }
+      ]
+    }
+  }
+}

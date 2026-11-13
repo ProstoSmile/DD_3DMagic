@@ -1,0 +1,61 @@
+{
+  "status": "staged_geometry_candidate",
+  "asset_id": "long_shotgun",
+  "geometry_revision": 6,
+  "geometry_relative": ".assetlab/staging/shotgun_lowpoly_03_refined_spec/geometry.json",
+  "scene_sha256": "4a95a3e33e79a338b14609b818771d0af15a5e1f12dcc6e5175be7086ccaa01b",
+  "approved_source_relative": "assets/long_shotgun/references/design/orthographic_alignment_v1/baseline.json",
+  "approved_source_sha256": "208d338d5a06322d0021c5c739cf8cd5f31b827706364db3f7dfd303f8acf78a",
+  "views": [
+    "side",
+    "top",
+    "front"
+  ],
+  "td_target_px_per_m": 30,
+  "td_state": "target only; no metric scale or UV",
+  "checkpoints": [
+    ".assetlab/staging/shotgun_lowpoly_01_masses/scene.blend",
+    ".assetlab/staging/shotgun_lowpoly_02_assembly/scene.blend",
+    ".assetlab/staging/shotgun_lowpoly_03_refined/scene.blend"
+  ],
+  "components": {
+    "barrel": {
+      "vertices": 24,
+      "triangles": 44
+    },
+    "buttplate": {
+      "vertices": 24,
+      "triangles": 44
+    },
+    "forearm": {
+      "vertices": 48,
+      "triangles": 92
+    },
+    "front-sight": {
+      "vertices": 8,
+      "triangles": 12
+    },
+    "muzzle": {
+      "vertices": 48,
+      "triangles": 96
+    },
+    "receiver": {
+      "vertices": 48,
+      "triangles": 92
+    },
+    "stock": {
+      "vertices": 56,
+      "triangles": 108
+    },
+    "trigger": {
+      "vertices": 16,
+      "triangles": 28
+    },
+    "trigger-guard": {
+      "vertices": 36,
+      "triangles": 68
+    }
+  },
+  "front_registration": "NEEDS_EVIDENCE",
+  "material_scope": "Temporary viewport material colors; no generated graphic used as geometry or texture input."
+}

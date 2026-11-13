@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "asset_uid": "fictional-long-shotgun",
+  "geometry_revision": 2,
+  "geometry_sha256": "d651bc41823ce28b74523747c3fd3aa0f16b2f5214be20a8ce0ab426ed85a7a2",
+  "projection_sha256": "6039edbd8e211dd025b4de3a096a09d3ff5e4fa0775706affa2a41f4c0190f4b",
+  "contour_sha256": "484cdde7255928c6c53e3e716a8b874c29aa398610ae1be65c5680c8855c4f03",
+  "component_masks_sha256": "b513e35600b45f694f8094a57d60a8109df908951bef5517778a26969ca2ad59",
+  "design_reference_sha256": null,
+  "appearance_brief": "Fictional early industrial long shotgun. Walnut stock with carved grip, dark blued steel barrel and brass fittings. Side-view pixel art candidate; keep the barrel straight and the butt, trigger guard, and muzzle readable."
+}

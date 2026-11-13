@@ -1,0 +1,16 @@
+{
+  "side": {
+    "iou": 0.9443869389291427,
+    "ink_only_pixels": 368,
+    "model_only_pixels": 223
+  },
+  "top": {
+    "iou": 0.9395520098189629,
+    "ink_only_pixels": 233,
+    "model_only_pixels": 161
+  },
+  "front": {
+    "status": "NEEDS_EVIDENCE",
+    "reason": "Approved front is an enlarged design drawing with unverified common scale."
+  }
+}

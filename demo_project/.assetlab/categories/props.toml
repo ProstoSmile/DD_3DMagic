@@ -1,0 +1,3 @@
+# Category for reference/proxy fixtures. Texture defaults remain project settings;
+# the technical fixture itself declares no UV atlas or physical texel density.
+schema_version = 2

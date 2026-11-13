@@ -1,0 +1,13 @@
+{
+  "gate": "projection",
+  "status": "PASS",
+  "checks": [
+    "revision, units and component identity",
+    "orthonormal right-handed camera matrices",
+    "fixed principal-view orientation and unit scale",
+    "every projected vertex and depth",
+    "recomputed projection extrema"
+  ],
+  "diagnostics": [],
+  "revision": 2
+}

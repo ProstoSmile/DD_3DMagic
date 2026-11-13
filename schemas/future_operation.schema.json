@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dd-3dmagic.example/spec/operation.v1.json",
+  "title": "Planned operation envelope, not enabled in MCP v0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "operation", "asset_id", "write_mode"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "operation": {"type": "string", "pattern": "^[a-z_]+\\.[a-z_]+$"},
+    "asset_id": {"type": "string", "pattern": "^[A-Za-z0-9_-]{1,100}$"},
+    "target_scope": {"type": "object"},
+    "input_artifacts": {"type": "array", "items": {"type": "object"}},
+    "expected_locks": {"type": "object"},
+    "settings": {"type": "object"},
+    "write_mode": {"enum": ["read_only", "stage_new"]},
+    "source_revision": {"type": "string"}
+  }
+}

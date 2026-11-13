@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "asset_id": "long_shotgun",
+  "handoff_version": 1,
+  "status": "consolidated_working_baseline",
+  "silhouette": {
+    "asset_relative": "references/design/orthographic_alignment_v1",
+    "manifest_sha256": "208d338d5a06322d0021c5c739cf8cd5f31b827706364db3f7dfd303f8acf78a"
+  },
+  "graphic": {
+    "views": [
+      "side",
+      "top",
+      "front"
+    ],
+    "target_td_px_per_m": 30,
+    "td_evidence": "visual target only",
+    "input_images": "graphic/inputs",
+    "texel_sample": "graphic/texel_scale_sample.png"
+  },
+  "model": {
+    "file": "model/scene.blend",
+    "geometry_revision": 6,
+    "objects": 9,
+    "vertices": 308,
+    "triangles": 584,
+    "round_trip": "PASS",
+    "reference_iou": {
+      "side": 0.9443869389291427,
+      "top": 0.9395520098189629
+    },
+    "front": "Qualitative only; no approved common-scale registration",
+    "activation": "Archived working baseline; stable demo scene unchanged."
+  },
+  "working_edit": {
+    "file": "working_edit/scene.blend",
+    "objects": 8,
+    "status": "Differs from reviewed GeometrySpec; MCP rejected component identity match.",
+    "differences": {
+      "receiver": "Not present as a separate component",
+      "stock": "96 vertices and 194 triangles in evaluated Blender geometry."
+    }
+  },
+  "files": {
+    "model/scene.blend": {
+      "sha256": "4a95a3e33e79a338b14609b818771d0af15a5e1f12dcc6e5175be7086ccaa01b"
+    },
+    "working_edit/scene.blend": {
+      "sha256": "4d51f054707e3dde161b74296b6ad177d7fa24cc4b77dcf106a0e930cf28cfd6"
+    },
+    "graphic/side.png": {
+      "sha256": "02826b0c6b1fbe80228c2db51044ff53d2c84ecf9c30ec8e5728b810f7c6646a"
+    },
+    "graphic/top.png": {
+      "sha256": "0fed7480a42846593f1ec0c612bba7ed6a5e1516e4cc2b1c020261972699ef0e"
+    },
+    "graphic/front.png": {
+      "sha256": "cd922ae7c2d750fe4e9785f0950917c7cabbbc5f9c5f54e8478d58756c0323f1"
+    },
+    "graphic/texel_scale_sample.png": {
+      "sha256": "410b9b8eed31e5a2069c2d1ef2990a92b8aa072b863e437438541fb244ac6a7c"
+    },
+    "graphic/graphic_reference.json": {
+      "sha256": "65d661809cc1a4f2ec80381d56b73d2aede103e7f30c1a6534f2faee28e7e2c9"
+    },
+    "graphic/inputs/side.png": {
+      "sha256": "610ac14e808132e1f97b4baf5df99b1e0d73fba1a3d695914dff83cb7915aee5"
+    },
+    "graphic/inputs/top.png": {
+      "sha256": "748880068c6561e221efbf28402b4af66e7e0def705c44f803d4b85113cbfbb5"
+    },
+    "graphic/inputs/front.png": {
+      "sha256": "c7f4914dc63b4e76b698261da1fb084be0cd7a2fed54787a72ebb3ae3c8ca988"
+    },
+    "graphic/inputs/graphic_reference.json": {
+      "sha256": "d5c5f6d730db66647a4d59260fdd3eb468e84e6684e3c1e92bdb247c5990a3d7"
+    },
+    "model/model_checkpoint.json": {
+      "sha256": "2c968de3425aa2420d112740f5579aba773ebac6527870aa505d3d3611ee312a"
+    },
+    "model/model_checkpoints.png": {
+      "sha256": "c2086d5cfe5ba31dfe3831e9a6afb7ebb6624c3837584117e04a39711deac3e0"
+    },
+    "model/projection_centerline_review.png": {
+      "sha256": "f8cf9189f4882975b4654648eb637c2fcc432155a81b955e9b6c9d67976e6c5a"
+    },
+    "model/front_provisional_overlay.png": {
+      "sha256": "c9adf3ea10b978f33f5785598a660f15c4d011fe635773587162e06d533cb3d3"
+    },
+    "model/front_provisional_registration.json": {
+      "sha256": "28c01269469c97b55e0153c91cb84887ec8b2ebf1270edfecc3de4807ac8c891"
+    },
+    "model/approved_centerline_comparison.json": {
+      "sha256": "54e54b8cf3a20db9740e1960f935db82f679e5cf3756e8140265f34f194a212d"
+    },
+    "model/inspect_report.json": {
+      "sha256": "7bfb109851ea93da48bc33ec9e030fd07452f1d24378cb5cb4cd6d75f02d2cc8"
+    },
+    "model/comparison.json": {
+      "sha256": "c74489eaf859695e3b526912467a3f00003f2299ef357fe48b9ba66e8a2c669b"
+    },
+    "model/geometry.json": {
+      "sha256": "d776f06d032d6badcbc188693ec31009842d508fa813e4870227c35de18b0c28"
+    },
+    "model/technical.svg": {
+      "sha256": "6e47a6cd77a848737d89b6312c770b8853ea05171f3a447e1cc6a85544d3b199"
+    },
+    "model/projection_validation.json": {
+      "sha256": "831a754b18b87237cda861ebd500651aa0674e9b85b73e575cc9bf8a35198aed"
+    },
+    "working_edit/inspect_report.json": {
+      "sha256": "2d75f31abe62dc3accedf7b3d989caf96ffe03300a712f01d4d65ba29244468e"
+    },
+    "working_edit/blender_side.png": {
+      "sha256": "f735ebf412cfb14570673941c6c763d8179974572972fb3c8ac654ccc3b9deed"
+    },
+    "working_edit/blender_top.png": {
+      "sha256": "5afa76b65b1fde3fdc4b33cb45051493dc357727945561109426eb116e09103d"
+    },
+    "working_edit/blender_front.png": {
+      "sha256": "7d56bc606b52eafdb7faa198692ffab83b5ee37ea9c9e423006ffe31b122c1e7"
+    },
+    "recipe/prepare_shotgun_model.py": {
+      "sha256": "e3cd97ca875c97838acd9a9b1b51a538bff32fc95206553e92f45b1e9a42b901"
+    },
+    "recipe/run_shotgun_model_stage.py": {
+      "sha256": "457804843c807a2d2d8b9cb0be3ae6f3dc03d7a3a1f725458d0a26e1b60260d9"
+    },
+    "recipe/compare_shotgun_ink.py": {
+      "sha256": "aed6b0d452749bbe60fd159894428bfd4dd4cddd2da6c9a1e393ea29a4d19e2a"
+    },
+    "checkpoints/01_masses/side.png": {
+      "sha256": "3685bbad89fdcf877b9000be65aada2d5bbc51a3447877a68a639841e7da60ee"
+    },
+    "checkpoints/01_masses/top.png": {
+      "sha256": "d1ea658bacafc0571fa60c5cf93681aa3fcdcbe738a0df6f2420b73569f454ef"
+    },
+    "checkpoints/01_masses/front.png": {
+      "sha256": "7319bc1f985a242e84ecf5c98b235ca4741c42bb91bd98d212a046f99ccc299a"
+    },
+    "checkpoints/02_assembly/side.png": {
+      "sha256": "eef57d363ea3944e4a2df6e677d3ee8ce15cfbd2078b48a41054e3f5efb7f01b"
+    },
+    "checkpoints/02_assembly/top.png": {
+      "sha256": "4f51e96eba4c5da71e5c5b457ead0540de69506c595349b2ec4f489f356a2d0e"
+    },
+    "checkpoints/02_assembly/front.png": {
+      "sha256": "af164fd5826287a5e87e6460220dbfc501b2b0f744bcdb8f8ac4f6d0f2adfa30"
+    },
+    "checkpoints/03_refined/side.png": {
+      "sha256": "ff6cec1cd579253b3ebe6f3efbb63dde3d81555c89d609094192565a27449f70"
+    },
+    "checkpoints/03_refined/top.png": {
+      "sha256": "42ef83f1e0b9fb361d1c1470aa8bbfb2d5b929726504ce8cdc0cd6613d0d267c"
+    },
+    "checkpoints/03_refined/front.png": {
+      "sha256": "552f0a3527036191642e660fb746f82463003120bae6a071379dc2c5073ffec9"
+    }
+  }
+}

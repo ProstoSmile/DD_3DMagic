@@ -1,0 +1,10 @@
+{
+  "operation": "blender",
+  "source_relative": ".assetlab/staging/shotgun_line_proxy_v3/geometry.json",
+  "output_relative": ".assetlab/staging/shotgun_line_blender_v3_bundled",
+  "category": "props",
+  "subcategory": "weapons",
+  "slug": "long_shotgun",
+  "drawing_reference_relative": ".assetlab/staging/shotgun_line_study/07_level_detail.json",
+  "publish": false
+}

@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "triangles": [
+    {
+      "object": "test_quad",
+      "positions_m": [[0,0,0],[1,0,0],[0,1,0]],
+      "uv": [[0,0],[1,0],[0,1]]
+    },
+    {
+      "object": "test_quad",
+      "positions_m": [[1,1,0],[0,1,0],[1,0,0]],
+      "uv": [[1,1],[0,1],[1,0]]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+[build]
+target-dir = "D:/GitHub_rep/DD_3DMagic/target"
+
+[env]
+TEMP = { value = "D:/GitHub_rep/DD_3DMagic/.work/temp", force = true }
+TMP = { value = "D:/GitHub_rep/DD_3DMagic/.work/temp", force = true }
+PYTHONDONTWRITEBYTECODE = { value = "1", force = true }

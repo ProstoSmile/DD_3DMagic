@@ -1,0 +1,963 @@
+{
+  "spec": {
+    "schema_version": 1,
+    "asset_uid": "fictional-long-shotgun",
+    "revision": 3,
+    "units": "artistic_relative",
+    "name": "Long Shotgun from Ink Study",
+    "projection_convention": "third_angle",
+    "technical_sheet_layout": "three_view_plus_quarter",
+    "parameter_provenance": [
+      {
+        "path": "*",
+        "basis": "artistic",
+        "explanation": "Widths and cross sections are artistic estimates in relative units."
+      },
+      {
+        "path": "root.children",
+        "basis": "derived",
+        "explanation": "Side contours trace .assetlab/staging/shotgun_line_study/07_level_detail.json (SHA-256 4828858fa9122baf922801e0142165750a8c85b76a7e4dd30675958b996cb7bb)."
+      }
+    ],
+    "root": {
+      "id": "shotgun",
+      "label": "Long shotgun from ink study",
+      "transform": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "primitive": null,
+      "material": "steel",
+      "children": [
+        {
+          "id": "stock",
+          "label": "Carved stock",
+          "transform": {
+            "translation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "primitive": {
+            "kind": "extruded_profile",
+            "parameters": {
+              "profile": [
+                [
+                  -3.5639999999999996,
+                  0.25674
+                ],
+                [
+                  -3.432,
+                  0.286
+                ],
+                [
+                  -3.102,
+                  0.308
+                ],
+                [
+                  -2.772,
+                  0.308
+                ],
+                [
+                  -2.486,
+                  0.264
+                ],
+                [
+                  -2.1999999999999997,
+                  0.154
+                ],
+                [
+                  -1.958,
+                  0.11
+                ],
+                [
+                  -1.694,
+                  0.132
+                ],
+                [
+                  -1.452,
+                  0.21999999999999997
+                ],
+                [
+                  -1.408,
+                  0.21999999999999997
+                ],
+                [
+                  -1.21,
+                  -0.43999999999999995
+                ],
+                [
+                  -1.364,
+                  -0.528
+                ],
+                [
+                  -1.496,
+                  -0.638
+                ],
+                [
+                  -1.672,
+                  -0.6599999999999999
+                ],
+                [
+                  -1.848,
+                  -0.594
+                ],
+                [
+                  -1.98,
+                  -0.484
+                ],
+                [
+                  -2.134,
+                  -0.418
+                ],
+                [
+                  -2.3539999999999996,
+                  -0.396
+                ],
+                [
+                  -2.618,
+                  -0.462
+                ],
+                [
+                  -2.948,
+                  -0.616
+                ],
+                [
+                  -3.3,
+                  -0.7919999999999999
+                ],
+                [
+                  -3.476,
+                  -0.836
+                ],
+                [
+                  -3.5639999999999996,
+                  -0.6819999999999999
+                ],
+                [
+                  -3.608,
+                  -0.418
+                ],
+                [
+                  -3.63,
+                  -0.154
+                ],
+                [
+                  -3.608,
+                  0.066
+                ]
+              ],
+              "depth": 0.32,
+              "axis": "y"
+            }
+          },
+          "material": "wood",
+          "children": []
+        },
+        {
+          "id": "buttplate",
+          "label": "Buttplate",
+          "transform": {
+            "translation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "primitive": {
+            "kind": "extruded_profile",
+            "parameters": {
+              "profile": [
+                [
+                  -3.5639999999999996,
+                  0.25674
+                ],
+                [
+                  -3.608,
+                  0.066
+                ],
+                [
+                  -3.63,
+                  -0.154
+                ],
+                [
+                  -3.608,
+                  -0.418
+                ],
+                [
+                  -3.5639999999999996,
+                  -0.6819999999999999
+                ],
+                [
+                  -3.476,
+                  -0.836
+                ],
+                [
+                  -3.542,
+                  -0.858
+                ],
+                [
+                  -3.652,
+                  -0.814
+                ],
+                [
+                  -3.718,
+                  -0.6819999999999999
+                ],
+                [
+                  -3.762,
+                  -0.43999999999999995
+                ],
+                [
+                  -3.784,
+                  -0.198
+                ],
+                [
+                  -3.762,
+                  0.022
+                ],
+                [
+                  -3.718,
+                  0.176
+                ],
+                [
+                  -3.63,
+                  0.242
+                ]
+              ],
+              "depth": 0.33,
+              "axis": "y"
+            }
+          },
+          "material": "dark_steel",
+          "children": []
+        },
+        {
+          "id": "receiver",
+          "label": "Steel receiver",
+          "transform": {
+            "translation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "primitive": {
+            "kind": "extruded_profile",
+            "parameters": {
+              "profile": [
+                [
+                  -1.452,
+                  0.21999999999999997
+                ],
+                [
+                  -1.276,
+                  0.32999999999999996
+                ],
+                [
+                  -1.012,
+                  0.396
+                ],
+                [
+                  -0.5499999999999999,
+                  0.396
+                ],
+                [
+                  -0.242,
+                  0.374
+                ],
+                [
+                  0.0,
+                  0.308
+                ],
+                [
+                  0.132,
+                  0.286
+                ],
+                [
+                  0.154,
+                  0.0
+                ],
+                [
+                  0.066,
+                  -0.088
+                ],
+                [
+                  0.0,
+                  -0.198
+                ],
+                [
+                  -0.264,
+                  -0.264
+                ],
+                [
+                  -0.748,
+                  -0.264
+                ],
+                [
+                  -0.99,
+                  -0.308
+                ],
+                [
+                  -1.188,
+                  -0.396
+                ],
+                [
+                  -1.364,
+                  -0.528
+                ],
+                [
+                  -1.452,
+                  -0.308
+                ],
+                [
+                  -1.518,
+                  -0.11
+                ],
+                [
+                  -1.518,
+                  0.066
+                ]
+              ],
+              "depth": 0.41,
+              "axis": "y"
+            }
+          },
+          "material": "steel",
+          "children": []
+        },
+        {
+          "id": "receiver-side-plate",
+          "label": "Side plate",
+          "transform": {
+            "translation": {
+              "x": 0.0,
+              "y": -0.209,
+              "z": 0.0
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "primitive": {
+            "kind": "extruded_profile",
+            "parameters": {
+              "profile": [
+                [
+                  -1.1,
+                  0.308
+                ],
+                [
+                  -1.188,
+                  0.242
+                ],
+                [
+                  -1.232,
+                  0.088
+                ],
+                [
+                  -1.232,
+                  -0.066
+                ],
+                [
+                  -1.166,
+                  -0.176
+                ],
+                [
+                  -0.99,
+                  -0.242
+                ],
+                [
+                  -0.6599999999999999,
+                  -0.198
+                ],
+                [
+                  -0.264,
+                  -0.198
+                ],
+                [
+                  -0.044,
+                  -0.132
+                ],
+                [
+                  0.044,
+                  -0.044
+                ],
+                [
+                  0.066,
+                  0.132
+                ],
+                [
+                  -0.022,
+                  0.242
+                ],
+                [
+                  -0.242,
+                  0.308
+                ]
+              ],
+              "depth": 0.035,
+              "axis": "y"
+            }
+          },
+          "material": "dark_steel",
+          "children": []
+        },
+        {
+          "id": "barrel",
+          "label": "Long tapered barrel",
+          "transform": {
+            "translation": {
+              "x": 0.044,
+              "y": 0.0,
+              "z": 0.154
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "primitive": {
+            "kind": "revolve",
+            "parameters": {
+              "profile": [
+                [
+                  0.0,
+                  0.132
+                ],
+                [
+                  0.748,
+                  0.132
+                ],
+                [
+                  1.606,
+                  0.11
+                ],
+                [
+                  2.728,
+                  0.11
+                ],
+                [
+                  3.784,
+                  0.088
+                ],
+                [
+                  4.29,
+                  0.088
+                ],
+                [
+                  4.29,
+                  0.0594
+                ],
+                [
+                  0.0,
+                  0.0594
+                ]
+              ],
+              "axis": "x",
+              "segments": 48
+            }
+          },
+          "material": "steel",
+          "children": []
+        },
+        {
+          "id": "muzzle",
+          "label": "Muzzle edge",
+          "transform": {
+            "translation": {
+              "x": 4.246,
+              "y": 0.0,
+              "z": 0.154
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "primitive": {
+            "kind": "revolve",
+            "parameters": {
+              "profile": [
+                [
+                  0.0,
+                  0.088
+                ],
+                [
+                  0.044,
+                  0.11
+                ],
+                [
+                  0.154,
+                  0.11
+                ],
+                [
+                  0.198,
+                  0.066
+                ],
+                [
+                  0.198,
+                  0.05279999999999999
+                ],
+                [
+                  0.0,
+                  0.05279999999999999
+                ]
+              ],
+              "axis": "x",
+              "segments": 48
+            }
+          },
+          "material": "dark_steel",
+          "children": []
+        },
+        {
+          "id": "forearm",
+          "label": "Carved forearm",
+          "transform": {
+            "translation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "primitive": {
+            "kind": "extruded_profile",
+            "parameters": {
+              "profile": [
+                [
+                  -0.044,
+                  -0.21999999999999997
+                ],
+                [
+                  0.088,
+                  -0.286
+                ],
+                [
+                  0.264,
+                  -0.352
+                ],
+                [
+                  0.528,
+                  -0.396
+                ],
+                [
+                  0.946,
+                  -0.396
+                ],
+                [
+                  1.408,
+                  -0.352
+                ],
+                [
+                  1.738,
+                  -0.286
+                ],
+                [
+                  1.892,
+                  -0.21999999999999997
+                ],
+                [
+                  1.98,
+                  -0.132
+                ],
+                [
+                  2.002,
+                  0.066
+                ],
+                [
+                  1.7819999999999998,
+                  0.066
+                ],
+                [
+                  0.99,
+                  0.044
+                ],
+                [
+                  0.154,
+                  0.044
+                ]
+              ],
+              "depth": 0.35,
+              "axis": "y"
+            }
+          },
+          "material": "wood",
+          "children": []
+        },
+        {
+          "id": "trigger-guard",
+          "label": "Trigger guard",
+          "transform": {
+            "translation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "primitive": {
+            "kind": "extruded_profile",
+            "parameters": {
+              "profile": [
+                [
+                  -1.144,
+                  -0.352
+                ],
+                [
+                  -1.1,
+                  -0.572
+                ],
+                [
+                  -1.012,
+                  -0.726
+                ],
+                [
+                  -0.8799999999999999,
+                  -0.814
+                ],
+                [
+                  -0.6819999999999999,
+                  -0.836
+                ],
+                [
+                  -0.43999999999999995,
+                  -0.814
+                ],
+                [
+                  -0.21999999999999997,
+                  -0.726
+                ],
+                [
+                  -0.088,
+                  -0.616
+                ],
+                [
+                  -0.044,
+                  -0.484
+                ],
+                [
+                  -0.066,
+                  -0.176
+                ],
+                [
+                  -0.198,
+                  -0.198
+                ],
+                [
+                  -0.198,
+                  -0.506
+                ],
+                [
+                  -0.308,
+                  -0.616
+                ],
+                [
+                  -0.484,
+                  -0.6819999999999999
+                ],
+                [
+                  -0.6819999999999999,
+                  -0.704
+                ],
+                [
+                  -0.814,
+                  -0.6819999999999999
+                ],
+                [
+                  -0.902,
+                  -0.594
+                ],
+                [
+                  -0.924,
+                  -0.462
+                ],
+                [
+                  -0.8799999999999999,
+                  -0.264
+                ]
+              ],
+              "depth": 0.16,
+              "axis": "y"
+            }
+          },
+          "material": "dark_steel",
+          "children": []
+        },
+        {
+          "id": "trigger",
+          "label": "Curved trigger",
+          "transform": {
+            "translation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "primitive": {
+            "kind": "extruded_profile",
+            "parameters": {
+              "profile": [
+                [
+                  -0.638,
+                  -0.242
+                ],
+                [
+                  -0.6599999999999999,
+                  -0.396
+                ],
+                [
+                  -0.6599999999999999,
+                  -0.506
+                ],
+                [
+                  -0.594,
+                  -0.594
+                ],
+                [
+                  -0.528,
+                  -0.616
+                ],
+                [
+                  -0.572,
+                  -0.528
+                ],
+                [
+                  -0.572,
+                  -0.43999999999999995
+                ],
+                [
+                  -0.506,
+                  -0.242
+                ]
+              ],
+              "depth": 0.08,
+              "axis": "y"
+            }
+          },
+          "material": "dark_steel",
+          "children": []
+        },
+        {
+          "id": "front-sight",
+          "label": "Front sight",
+          "transform": {
+            "translation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "primitive": {
+            "kind": "extruded_profile",
+            "parameters": {
+              "profile": [
+                [
+                  3.96,
+                  0.242
+                ],
+                [
+                  4.026,
+                  0.32999999999999996
+                ],
+                [
+                  4.136,
+                  0.32999999999999996
+                ],
+                [
+                  4.18,
+                  0.242
+                ],
+                [
+                  4.136,
+                  0.21999999999999997
+                ],
+                [
+                  3.982,
+                  0.21999999999999997
+                ]
+              ],
+              "depth": 0.08,
+              "axis": "y"
+            }
+          },
+          "material": "dark_steel",
+          "children": []
+        }
+      ]
+    },
+    "dimensions": [
+      {
+        "id": "overall-length",
+        "label": "Overall length",
+        "target": {
+          "kind": "overall_extent",
+          "value": {
+            "axis": "x"
+          }
+        }
+      },
+      {
+        "id": "barrel-diameter",
+        "label": "Barrel diameter",
+        "target": {
+          "kind": "node_extent",
+          "value": {
+            "node_id": "barrel",
+            "axis": "y"
+          }
+        }
+      },
+      {
+        "id": "stock-to-muzzle",
+        "label": "Stock to muzzle distance",
+        "target": {
+          "kind": "node_distance",
+          "value": {
+            "first_node": "stock",
+            "second_node": "muzzle"
+          }
+        }
+      }
+    ],
+    "driving_dimensions": [
+      {
+        "id": "receiver-width",
+        "label": "Receiver width",
+        "assignment": {
+          "node_id": "receiver",
+          "parameter": "depth",
+          "value": 0.41
+        },
+        "unit_label": "au"
+      }
+    ],
+    "constraints": [
+      {
+        "kind": "extent_range",
+        "value": {
+          "id": "long-form-factor",
+          "node_id": null,
+          "axis": "x",
+          "minimum": 8.0,
+          "maximum": 9.5
+        }
+      },
+      {
+        "kind": "axes_parallel",
+        "value": {
+          "id": "barrel-aligned-to-receiver",
+          "first_node": "barrel",
+          "first_axis": "x",
+          "second_node": "receiver",
+          "second_axis": "x",
+          "tolerance": 0.01
+        }
+      }
+    ]
+  },
+  "undo": [],
+  "redo": []
+}

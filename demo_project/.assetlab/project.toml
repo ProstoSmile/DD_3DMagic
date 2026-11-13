@@ -1,0 +1,24 @@
+schema_version = 2
+project_id = "demo_stylized_fps"
+project_uid = "prj_demo_stylized_fps_v1"
+project_version = 1
+display_name = "DD_3DMagic Example Project"
+units = "meters"
+style = "lowpoly_pixel"
+
+[texture]
+width = 128
+height = 128
+target_td_px_per_m = 96.0
+td_tolerance_pct = 15.0
+padding_px = 4
+nearest_filter = true
+palette = [
+  [14, 20, 24], [38, 48, 50], [66, 77, 70],
+  [104, 98, 72], [159, 129, 79], [204, 179, 119],
+  [101, 57, 42], [155, 88, 52], [230, 209, 153]
+]
+
+[naming]
+texture_pattern = "T_{asset_id}_{surface}_{channel}_{width}.png"
+material_pattern = "M_{asset_id}_{surface}"

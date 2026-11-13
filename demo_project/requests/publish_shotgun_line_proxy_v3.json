@@ -1,0 +1,16 @@
+{
+  "operation": "blender",
+  "source_relative": ".assetlab/staging/shotgun_line_proxy_v3/geometry.json",
+  "output_relative": ".assetlab/staging/shotgun_line_publish_v3",
+  "category": "props",
+  "subcategory": "weapons",
+  "slug": "long_shotgun",
+  "drawing_reference_relative": ".assetlab/staging/shotgun_line_study/07_level_detail.json",
+  "reviewed_proxy": {
+    "scene_relative": ".assetlab/staging/shotgun_line_blender_v3_bundled/scene.blend",
+    "scene_sha256": "666f61628563e3f0a21f04082e7c50b9d60345ccca65c8411a4ceecca93dd2e0",
+    "geometry_sha256": "8f122803b18b21a889ba971db36d0782bc71e13bbb4ca74a69ea71c3e9ad508f",
+    "drawing_sha256": "4828858fa9122baf922801e0142165750a8c85b76a7e4dd30675958b996cb7bb"
+  },
+  "publish": true
+}

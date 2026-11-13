@@ -1,0 +1,54 @@
+schema_version = 2
+asset_id = "demo_prop"
+asset_uid = "ast_demo_prop_v1"
+asset_version = 1
+category = "prop"
+uv_map = "UV_Main"
+protected_components = ["artist_approved_geo"]
+
+[texture]
+padding_px = 4
+
+[[materials]]
+material_id = "wood"
+role = "wood"
+display_name = "Aged wood"
+slot_name = "wood_section"
+
+[[materials]]
+material_id = "steel"
+role = "metal"
+display_name = "Dark steel"
+slot_name = "metal_section"
+
+[[face_ids]]
+face_id = "wood_section"
+component_id = "wood_section"
+material_id = "wood"
+display_name = "Wood section"
+
+[[face_ids]]
+face_id = "metal_section"
+component_id = "metal_section"
+material_id = "steel"
+display_name = "Metal section"
+
+[[references]]
+reference_id = "demo_prop_master"
+role = "asset_master"
+path = "assets/demo_prop/references/master.yaml"
+reference_version = 1
+sha256 = "sha256:f52dfafb1136c70356e35fdc3e6acd2b8d63da93520294866bad1156c2dec726"
+
+[[references]]
+reference_id = "source_sample_motif"
+role = "texture_motif"
+path = "assets/demo_prop/textures/source_sample.png"
+reference_version = 1
+sha256 = "sha256:a65a59de5e0f11d0fcb6e27a019967e634855067b5deb7448d446f8d434e0cde"
+
+[[source_artifacts]]
+artifact_id = "source_sample"
+role = "source_texture"
+path = "assets/demo_prop/textures/source_sample.png"
+sha256 = "sha256:a65a59de5e0f11d0fcb6e27a019967e634855067b5deb7448d446f8d434e0cde"

@@ -1,0 +1,13 @@
+{
+  "appearance_input_bundle_path": "appearance_input.bin",
+  "appearance_input_relative": ".assetlab/staging/long_shotgun_appearance_source_v1.png",
+  "appearance_input_sha256": "c1a0719524481391e800d0d9cb9b3ed4678dd10d03e69e92535820f69a37eb02",
+  "component_mask_count": 19,
+  "contour_clipping": "PASS",
+  "geometry_revision": 1,
+  "graphic_sha256": "df3de979edd2b8dc08c1e21e5449b0aea3fc2e596475ea36c7f7f6f93047c134",
+  "semantic_appearance": "NOT_VERIFIABLE",
+  "status": "PASS_WITH_WARNINGS",
+  "view": "side",
+  "warning": "Appearance detail is not a geometry or semantic correctness claim."
+}

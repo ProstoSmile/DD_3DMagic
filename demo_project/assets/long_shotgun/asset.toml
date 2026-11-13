@@ -1,0 +1,125 @@
+asset_id = "long_shotgun"
+asset_uid = "fictional-long-shotgun"
+asset_version = 3
+blend_path = "blender/models/props/weapons/long_shotgun/long_shotgun.blend"
+category = "props"
+display_name = "Long Shotgun from Ink Study"
+protected_components = []
+schema_version = 2
+slug = "long_shotgun"
+subcategory = "weapons"
+
+[active_references]
+design_reference = "design_reference_v4"
+silhouette_reference = "silhouette_reference_r5"
+
+[[references]]
+path = "assets/long_shotgun/references/technical/r1_55aad83a0b1b/technical.svg"
+reference_id = "silhouette_reference_r1"
+reference_version = 1
+role = "silhouette_reference"
+sha256 = "aa779a71a1f9052ae3d225c5d3e751a48f8bf6f138c247826d23a4242bfeaf5e"
+
+[[references]]
+path = "assets/long_shotgun/references/technical/r1_55aad83a0b1b/graphic.png"
+reference_id = "graphic_reference_r1"
+reference_version = 1
+role = "graphic_reference"
+sha256 = "df3de979edd2b8dc08c1e21e5449b0aea3fc2e596475ea36c7f7f6f93047c134"
+
+[[references]]
+path = "requests/long_shotgun_design_brief.md"
+reference_id = "design_reference"
+reference_version = 1
+role = "design_reference"
+sha256 = "4ac5670d7565079963934c544d8fa16258f1c80d1fb6eaa875080fe7899d6284"
+
+[[references]]
+path = "assets/long_shotgun/references/technical/r2_b7e2194c80ea/technical.svg"
+reference_id = "silhouette_reference_r2"
+reference_version = 2
+role = "silhouette_reference"
+sha256 = "d6e92016b307ce9808ffef627bb17df383b142fc16c98298c82d48fb32479305"
+
+[[references]]
+path = "assets/long_shotgun/references/technical/r2_b7e2194c80ea/graphic.png"
+reference_id = "graphic_reference_r2"
+reference_version = 2
+role = "graphic_reference"
+sha256 = "df3de979edd2b8dc08c1e21e5449b0aea3fc2e596475ea36c7f7f6f93047c134"
+
+[[references]]
+path = "requests/long_shotgun_design_brief_v2.md"
+reference_id = "design_reference_v2"
+reference_version = 2
+role = "design_reference"
+sha256 = "ad67867e3cee71e3cd731b55cffdc82c23730a6802d805503d40215c3f3e217b"
+
+[[references]]
+path = "assets/long_shotgun/references/technical/r2_1cb62fed7df3/side_silhouette.png"
+reference_id = "silhouette_reference_r3"
+reference_version = 3
+role = "silhouette_reference"
+sha256 = "6b0746a33c8c17456d1527557498cfdd68300dd8d58acb08c557823da6135b04"
+
+[[references]]
+path = "requests/long_shotgun_silhouette_brief_v3.md"
+reference_id = "design_reference_v3"
+reference_version = 3
+role = "design_reference"
+sha256 = "f6a9ffd78addcf385bf421d3976da900a8a61ec1a7061d6f6b97d342030686ac"
+
+[[references]]
+path = "assets/long_shotgun/references/technical/r2_5f7ac220e7be/side_silhouette.png"
+reference_id = "silhouette_reference_r4"
+reference_version = 4
+role = "silhouette_reference"
+sha256 = "4370cfbc582d8577b305a7b464690283fb8846f99744b66adc9a7a18f0598957"
+
+[[references]]
+path = "assets/long_shotgun/references/technical/r3_8f122803b18b_d4828858fa912/side_silhouette.png"
+reference_id = "silhouette_reference_r5"
+reference_version = 5
+role = "silhouette_reference"
+sha256 = "b2b98eff4daa3150a6b875b16d930ed626d2fba1b10b7d8d8574af031dbb1d33"
+
+[[references]]
+path = "assets/long_shotgun/references/technical/r3_8f122803b18b_d4828858fa912/design_drawing.png"
+reference_id = "design_reference_v4"
+reference_version = 4
+role = "design_reference"
+sha256 = "7b7d07b7a58be998cb2d08c105fd716141a6b3b34f82e2d6040ae85b40f6f850"
+
+[[source_artifacts]]
+artifact_id = "supplied_appearance_input"
+path = "assets/long_shotgun/references/technical/r2_b7e2194c80ea/appearance_input.bin"
+role = "appearance_source"
+sha256 = "c1a0719524481391e800d0d9cb9b3ed4678dd10d03e69e92535820f69a37eb02"
+
+[[source_artifacts]]
+artifact_id = "managed_proxy_scene"
+path = "blender/models/props/weapons/long_shotgun/long_shotgun.blend"
+role = "proxy_model"
+sha256 = "666f61628563e3f0a21f04082e7c50b9d60345ccca65c8411a4ceecca93dd2e0"
+
+[[source_artifacts]]
+artifact_id = "design_strokes"
+path = "assets/long_shotgun/references/technical/r3_8f122803b18b_d4828858fa912/design_strokes.json"
+role = "design_source"
+sha256 = "4828858fa9122baf922801e0142165750a8c85b76a7e4dd30675958b996cb7bb"
+
+[technical]
+geometry_path = "assets/long_shotgun/references/technical/r3_8f122803b18b_d4828858fa912/geometry.json"
+geometry_sha256 = "8f122803b18b21a889ba971db36d0782bc71e13bbb4ca74a69ea71c3e9ad508f"
+revision = 3
+revision_history = [
+    ".assetlab/staging/long_shotgun_reference_v2/geometry.json",
+    "assets/long_shotgun/references/technical/r1_55aad83a0b1b/geometry.json",
+    "assets/long_shotgun/references/technical/r2_b7e2194c80ea/geometry.json",
+    "assets/long_shotgun/references/technical/r2_1cb62fed7df3/geometry.json",
+    "assets/long_shotgun/references/technical/r2_5f7ac220e7be/geometry.json",
+    "assets/long_shotgun/references/technical/r3_8f122803b18b_d4828858fa912/geometry.json",
+]
+schema_version = 1
+subcategory = "weapons"
+validation_status = "proxy_verified"

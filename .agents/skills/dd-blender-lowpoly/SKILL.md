@@ -1,0 +1,13 @@
+---
+name: dd-blender-lowpoly
+description: Build or modify a clean stylized low-poly Blender blockout from an approved master reference while preserving artist geometry. Use only for explicit modeling requests.
+---
+
+# Geometry pipeline
+1. Resolve the design reference, dimensions, parts and intended camera. Model coordinates and physical dimensions use meters: set `GeometrySpec.units` to `meters`, and keep Blender at Metric with `scale_length = 1.0`. Before tracing a pixel reference into 3D, choose one confirmed real dimension (usually overall length), then derive meters per source pixel from registered points. Check the resulting scene bounds in meters. Never use an unscaled canvas value as meters. Legacy `artistic_relative` assets stay explicitly relative until converted with an approved anchor.
+2. Make editable semantic parts with deliberately placed vertices. Keep parts such as the stock, forearm, receiver, barrel, trigger and guard as separate objects. New artist-authored solids use `polygon_mesh` face loops: quads and useful n-gons, with no triangulated saved topology. Keep `triangle_mesh` only for legacy inputs. Do not triangulate a saved/editable mesh for projection or handoff; derived triangles may be used internally for rasterization, but Blender must retain the original face loops. Add a section or bevel only where it changes a contour, a cross section, a join or a visible highlight. Keep surface marks in the texture.
+3. Render the candidate from the three reference cameras at the source registration. Use overlays to find visible issues in contours, part placement, and joins. Treat overlap percentages as diagnostics. Stop when the agreed shape is readable and remaining differences are immaterial at the intended scale; add geometry only to resolve a visible issue. Mark an unregistered view as `NEEDS_EVIDENCE` and report what was checked visually.
+4. Use MCP `reference_operation` with `polygon_mesh` components and the `orthographic_three` layout. Build a new staged scene for each useful checkpoint. Call `reference_frame` for each actual Blender render and inspect the PNG before the next edit. Measure overlap with the approved silhouette in its existing registration. Use the Graphic Reference only as a visual material/style check.
+5. Avoid auto-remesh, subdiv, destructive modifiers on artist-approved components.
+6. Preserve object/component identifiers, material roles and dimensions. UV is separate and should never silently change during later edits.
+7. At handoff, submit the scene hash, reference version, three views, overlays, per-part counts, and any open registration issues to `$dd-model-review`. Keep checkpoint renders and the reusable recipe. See `docs/08_ASSET_WORKFLOW.md` for the stage sequence.
